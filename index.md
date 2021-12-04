@@ -27,6 +27,7 @@ Reflejo de la sociedad en las redes sociales y el efecto de las mismas en el cas
 ### Resultados
 
 [Mapas, resultados]
+<a href="https://www.270towin.com/maps/2016-actual-electoral-map"><img src="https://www.270towin.com/map-images/2016-actual-electoral-map.png" width="800"></a>
 
 ### Rendimiento: Local vs Cloud
 
@@ -35,5 +36,3 @@ Reflejo de la sociedad en las redes sociales y el efecto de las mismas en el cas
 ### Conclusiones
 
 [Aquí las conclusiones]
-
-<a href="https://www.270towin.com/maps/2016-actual-electoral-map"><img src="https://www.270towin.com/map-images/2016-actual-electoral-map.png" width="800"></a>
