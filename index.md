@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+## Descripción del proyecto
 
-You can use the [editor on GitHub](https://github.com/estizs/estizs.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+[Aquí viene la descripción.]
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Necesidad de Big Data
 
-### Markdown
+[Aquí la descripción del proyecto.]
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Dataset
 
-```markdown
-Syntax highlighted code block
+* De dónde lo hemos sacado (fuente)
+* Contenido (formato) --> df en vez de rdd
+* Tamaño --> 200Mb vs 13Gb
 
-# Header 1
-## Header 2
-### Header 3
+### Objetivos
 
-- Bulleted
-- List
+* Limpiar dataset --> candidate_id, polarity, subjectivity (just in case), state (quedarnos con los tweets con estado), created_at (nos quedamos desde agosto-nov)
+* Para cada estado mirar cuál es candidato con mayor polaridad (el fav)
+* Para cada estado mirar cuál es candidato con menor polaridad (menos fav)
+* Comparar los resultados de arriba con los resultados reales
+* Hacer mapa interactivo
 
-1. Numbered
-2. List
+### Desarrollo
 
-**Bold** and _Italic_ and `Code` text
+[Código, explicación de las herramientas]
 
-[Link](url) and ![Image](src)
-```
+### Resultados
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+[Mapas, resultados]
 
-### Jekyll Themes
+### Rendimiento: Local vs Cloud
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/estizs/estizs.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[Análisis del rendimiento, dataset 13GB]
 
-### Support or Contact
+### Conclusiones
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[Aquí las conclusiones]
