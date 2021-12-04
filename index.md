@@ -1,6 +1,6 @@
 ## Descripción del proyecto
 
-[Aquí viene la descripción.]
+Reflejo de la sociedad en las redes sociales y el efecto de las mismas en el caso de las elecciones presidenciales de Estados Unidos de 2016. Analizar cómo Twitter se ha consolidado como una herramienta esencial para la campaña electoral. Partimos de la hipótesis de que durante el periodo electoral los tweets son representativos de los resultados finales.
 
 ### Necesidad de Big Data
 
