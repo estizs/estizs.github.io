@@ -11,9 +11,19 @@ En los últimos diez años, el número de usuarios mensuales de Twitter ha aumen
 * De dónde lo hemos sacado (fuente)
 * Contenido (formato) --> df en vez de rdd
 * Tamaño --> 200Mb vs 13Gb
+
 El dataset lo hemos obtenido de la página data.world, que contiene millones de datasets públicos para que cualquier persona pueda hacer uso de ellos. [Nuestro dataset](https://data.world/alexfilatov/2016-usa-presidential-election-tweets/workspace/project-summary?agentid=alexfilatov&datasetid=2016-usa-presidential-election-tweets) en concreto contiene tweets de las elecciones presidenciales de EEUU de 2016. Hay dos versiones del dataset, uno de 17.3MB y otro de 13.17GB. Para nuestras pruebas en local hemos usado el dataset de 17.3MB, que contiene 100k tweets.
 
 La estructura del dataset es la siguiente: id, candidate_id, tweet_id, polarity, subjectivity, retweet_count, favorite_count, device, retweeted_status_id, lang, state, tweet_text, created_at, inserted_at, updated_at, tw_user_id, latitude, longitude
+
+Para el análisis, hemos prescindido de algunas columnas ya que no aportan información relevante. Así que la estructura que realmente hemos utilizado es la siguiente: candidate_id, polarity, subjectivity, state, created_at. 
+
+**candidate_id:** contiene un número del 1 al 4. Las correspondencias de id-nombre son las siguientes:
+ID 1: Hillary Clinton
+ID 2: Donald Trump
+ID 3: Barack Obama
+ID 4: Bernie Sanders
+**polarity:** la polaridad está ya calculada usando Python NTLK open source server. Este es un número entre -1 y 1, siendo -1 una opinión negativa y 1 positiva.
 
 ### Objetivos
 
