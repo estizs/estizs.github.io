@@ -14,6 +14,7 @@ En los últimos diez años, el número de usuarios mensuales de Twitter ha aumen
 El dataset lo hemos obtenido de la página data.world, que contiene millones de datasets públicos para que cualquier persona pueda hacer uso de ellos. [Nuestro dataset](https://data.world/alexfilatov/2016-usa-presidential-election-tweets/workspace/project-summary?agentid=alexfilatov&datasetid=2016-usa-presidential-election-tweets) en concreto contiene tweets de las elecciones presidenciales de EEUU de 2016. Hay dos versiones del dataset, uno de 17.3MB y otro de 13.17GB. Para nuestras pruebas en local hemos usado el dataset de 17.3MB, que contiene 100k tweets.
 
 La estructura del dataset es la siguiente:
+
 | id | candidate_id | tweet_id | polarity | subjectivity | retweet_count | favorite_count | device | retweeted_status_id | lang | state | tweet_text | created_at | inserted_at | updated_at | tw_user_id | latitude | longitude |
 --------------------------------------------------------------
 
