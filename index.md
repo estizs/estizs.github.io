@@ -6,11 +6,9 @@ Con este proyecto queremos estudiar el reflejo de la sociedad en las redes socia
 
 En los últimos diez años, el número de usuarios mensuales de Twitter ha aumentado en un 372%. A raíz de esto contamos con un dataset del orden de millones de tweets. Es usual que el tráfico de tweets aumente considerablemente durante sucesos importantes. Esto ocurre también durante el periodo electoral de EEUU. Esto constituye un conjunto de datos tan masivo que es necesario el uso de herramientas de procesamiento de datos más potentes como el Cloud.
 
-### Dataset
 
-* De dónde lo hemos sacado (fuente)
-* Contenido (formato) --> df en vez de rdd
-* Tamaño --> 200Mb vs 13Gb
+
+### Dataset
 
 El dataset lo hemos obtenido de la página data.world, que contiene millones de datasets públicos para que cualquier persona pueda hacer uso de ellos. [Nuestro dataset](https://data.world/alexfilatov/2016-usa-presidential-election-tweets/workspace/project-summary?agentid=alexfilatov&datasetid=2016-usa-presidential-election-tweets) en concreto contiene tweets de las elecciones presidenciales de EEUU de 2016. Hay dos versiones del dataset, uno de 17.3MB y otro de 13.17GB. Para nuestras pruebas en local hemos usado el dataset de 17.3MB, que contiene 100k tweets.
 
@@ -26,7 +24,7 @@ Para el análisis, hemos prescindido de algunas columnas ya que no aportan infor
 * ID 4: Bernie Sanders
 
 
-**polarity:** la polaridad está ya calculada usando [Python NTLK open source server](https://github.com/topics/nltk-python), el que se ha usado es en conctreto un analizador de sentimiento que utiliza TextBlob: https://github.com/sguignot/textblob-api-server. La polaridad es un número entre -1 y 1, siendo -1 una opinión negativa y 1 positiva.
+**polarity:** la polaridad está ya calculada usando [Python NTLK open source server](https://github.com/topics/nltk-python), el que se ha usado es en conctreto un analizador de sentimiento que utiliza TextBlob: [https://github.com/sguignot/textblob-api-server](https://github.com/sguignot/textblob-api-server). La polaridad es un número entre -1 y 1, cuanto más cercana a -1, implica una opinión negativa y 1 positiva.
 
 
 **state:** contiene abreviaciones tanto de estados de EEUU como de países.
@@ -41,6 +39,8 @@ Para el análisis, hemos prescindido de algunas columnas ya que no aportan infor
 * Para cada estado mirar cuál es candidato con menor polaridad (menos fav)
 * Comparar los resultados de arriba con los resultados reales
 * Hacer mapa interactivo
+
+El principal objetivo del proyecto es demostrar que el número de tweets referentes a un candidato guarda relación con los resultados obtenidos en las elecciones. Para ello, hemos analizado los tweets en funcioón de su polaridad para hacer un mapa que represente la imagen que tienen los usuarios de Twitter de cada candidato en cada estado. Vamos a comparar estos datos obtenidos con los resultados reales para hacer el análisis estadístico.
 
 ### Desarrollo
 
