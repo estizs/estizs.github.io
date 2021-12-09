@@ -20,14 +20,17 @@ Para el análisis, hemos prescindido de algunas columnas ya que no aportan infor
 
 **candidate_id:** contiene un número del 1 al 4. Las correspondencias de id-nombre son las siguientes:
 
-ID 1: Hillary Clinton
-ID 2: Donald Trump
-ID 3: Barack Obama
-ID 4: Bernie Sanders
+* ID 1: Hillary Clinton
+* ID 2: Donald Trump
+* ID 3: Barack Obama
+* ID 4: Bernie Sanders
+
 
 **polarity:** la polaridad está ya calculada usando [Python NTLK open source server](https://github.com/topics/nltk-python), el que se ha usado es en conctreto un analizador de sentimiento que utiliza TextBlob: https://github.com/sguignot/textblob-api-server. La polaridad es un número entre -1 y 1, siendo -1 una opinión negativa y 1 positiva.
 
+
 **state:** contiene abreviaciones tanto de estados de EEUU como de países.
+
 
 **created_at:** fecha en la que se publicó el tweet.
 
