@@ -40,7 +40,6 @@ Otro de los objetivos de este proyecto es reafirmar que es necesario el uso de u
 
 ### Desarrollo
 
-[Código, explicación de las herramientas]
 Hemos desarrollado nuestro programa con spark. Para poder ejecutarlo el usuario deberá tener instalado en su ordenador pyspark. Para instalarlo hemos seguido las instrucciones de la siguiente [página](https://medium.com/tinghaochen/how-to-install-pyspark-locally-94501eefe421).
 
 Lo primero que realizamos fue la limpieza de los datos para quedarnos con las columnas que nos interesaban. Estas son: 'candidate_id', 'polarity', 'subjectivity', 'state', 'created_at'. Seguidamente descartamos las filas que contenían valores nulos en las columnas 'state' o 'created_at'. Los datos fueron recogidos entre agosto de 2016 y febrero de 2017 cuando Trump asumió el cargo. Filtramos los tweets que pertenecían a los estados de EEUU, en total 51 estados los cuales son: ['OH', 'AZ', 'MO', 'TN', 'ID', 'MA', 'LA', 'CA', 'SC', 'MN', 'NJ', 'DC', 'OR', 'VA', 'RI', 'KY', 'WY', 'NH', 'MI', 'NV', 'WI', 'CT', 'NE', 'MT', 'NC', 'VT', 'MD', 'DE', 'IL', 'ME', 'WA', 'ND', 'MS', 'AL', 'IN', 'IA', 'NM', 'PA', 'SD', 'NY', 'TX', 'WV', 'GA', 'KS', 'FL', 'CO', 'AK', 'AR', 'OK', 'UT', 'HI'].
@@ -48,9 +47,11 @@ Lo primero que realizamos fue la limpieza de los datos para quedarnos con las co
 ```python
 df.select('candidate_id', 'polarity', 'subjectivity', 'state', 'created_at').filter(df.state.isNotNull() & df.created_at.isNotNull()).filter(df.state.isin(li))
 ```
-Descargamos
+Para visualizar los resultados con un mapa, hemos utilizado la librería Plotly que es una librería gráfica que sirve para hacer mapas. Para instalarlo es necesario ejecutar el siguiente comando:
 
-Hemos desarrollado nuestro programa con spark. Para poder ejecutarlo el usuario deberá descargarse
+```console
+$ pip install plotly==5.4.0
+```
 
 ### Resultados
 
