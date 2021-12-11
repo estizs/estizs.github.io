@@ -66,10 +66,14 @@ polarity_results = positive_polarity.sort(positive_polarity.state.asc(), positiv
 negative_polarity = candidates_df.filter(candidates_df.polarity < 0).groupBy('name', 'state').count().withColumnRenamed('count', 'votes')
 neg_polarity_results = negative_polarity.sort(negative_polarity.state.asc(), negative_polarity.votes.desc()).groupBy('state').agg(first('name').alias('name')).sort('state')
 ```
+
 ### Resultados
 
-[Mapas, resultados]
-<a href="https://www.270towin.com/maps/2016-actual-electoral-map"><img src="https://www.270towin.com/map-images/2016-actual-electoral-map.png" width="800"></a>
+Polaridad positiva 
+![](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/data/pos_polarity.png)
+
+Polaridad negativa
+![](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/data/neg_polarity.png)
 
 ### Rendimiento: Local vs Cloud
 
