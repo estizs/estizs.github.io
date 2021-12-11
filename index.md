@@ -34,9 +34,10 @@ Para el análisis, hemos prescindido de algunas columnas ya que no aportan infor
 
 ## Dataset datos reales
 También hemos usado un dataset con los resultados de las elecciones obtenidos en la realidad, con los ganadores por estados. Esto lo hemos obtenido de la plataforma 'Dataverse' de la Universidad de Harvard, por lo que asumimos que los resultados son veraces. El tamaño de este dataset son 528,47 KB, en los que se encuentran los datos en forma tabular. Su estructura es la siguiente: year,"stage","special","state","state_postal","state_fips","state_icpsr","county_name","county_fips",
-"county_ansi","county_lat","county_long","jurisdiction","precinct","candidate","candidate_normalized","office","district",
-"writein","party","mode","votes","candidate_opensecrets","candidate_wikidata","candidate_party","candidate_last","candidate_first",
-"candidate_middle","candidate_full","candidate_suffix","candidate_nickname","candidate_fec","candidate_fec_name","candidate_google",
+"county_ansi","county_lat","county_long","jurisdiction","precinct","candidate","candidate_normalized",
+"office","district","writein","party","mode","votes","candidate_opensecrets","candidate_wikidata",
+"candidate_party","candidate_last","candidate_first","candidate_middle","candidate_full","candidate_suffix",
+"candidate_nickname","candidate_fec","candidate_fec_name","candidate_google",
 "candidate_govtrack","candidate_icpsr","candidate_maplight".
 
 De todos estos datos, sólo necesitábamos saber los datos relacionados con los votos totales por estados (formado por contados -'county_name' en la tabla-), el nombre del estado al que pertenecen y el nombre del candidato ganador. Por esto, hemos seguido la siguiente estructura para trabajar de una manera más eficiente: "state_postal", "county_name", "candidate_normalized" y "votes". 
