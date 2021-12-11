@@ -34,17 +34,18 @@ Para el análisis, hemos prescindido de algunas columnas ya que no aportan infor
 
 ### Objetivos
 
-* Limpiar dataset --> candidate_id, polarity, subjectivity (just in case), state (quedarnos con los tweets con estado), created_at (nos quedamos desde agosto-nov)
-* Para cada estado mirar cuál es candidato con mayor polaridad (el fav)
-* Para cada estado mirar cuál es candidato con menor polaridad (menos fav)
-* Comparar los resultados de arriba con los resultados reales
-* Hacer mapa interactivo
-
 El principal objetivo del proyecto es demostrar que el número de tweets referentes a un candidato guarda relación con los resultados obtenidos en las elecciones. Para ello, hemos analizado los tweets en función de su polaridad para hacer un mapa que represente la imagen que tienen los usuarios de Twitter de cada candidato en cada estado. Vamos a comparar estos datos obtenidos con los resultados reales para hacer el análisis estadístico.
+
+Otro de los objetivos de este proyecto es reafirmar que es necesario el uso de un procesamineto de datos más potente. Para ello vamos a realizar pruebas sobre un ordenador de 4 núcleos y sobre un clúster en Google Cloud. 
 
 ### Desarrollo
 
 [Código, explicación de las herramientas]
+Lo primero que realizamos fue la limpieza de los datos para quedarnos con las columnas que nos interesaban. Estas son: 'candidate_id', 'polarity', 'subjectivity', 'state', 'created_at'. Seguidamente descartamos las filas que contenían valores nulos en las columnas 'state' o 'created_at'. Los datos fueron recogidos entre agosto de 2016 y febrero de 2017 cuando Trump asumió el cargo. Filtramos los tweets que pertenecían a los estados de EEUU, en total 51 estados los cuales son: ['OH', 'AZ', 'MO', 'TN', 'ID', 'MA', 'LA', 'CA', 'SC', 'MN', 'NJ', 'DC', 'OR', 'VA', 'RI', 'KY', 'WY', 'NH', 'MI', 'NV', 'WI', 'CT', 'NE', 'MT', 'NC', 'VT', 'MD', 'DE', 'IL', 'ME', 'WA', 'ND', 'MS', 'AL', 'IN', 'IA', 'NM', 'PA', 'SD', 'NY', 'TX', 'WV', 'GA', 'KS', 'FL', 'CO', 'AK', 'AR', 'OK', 'UT', 'HI'].
+
+```python
+df.select('candidate_id', 'polarity', 'subjectivity', 'state', 'created_at').filter(df.state.isNotNull() & df.created_at.isNotNull()).filter(df.state.isin(li))
+```
 
 ### Resultados
 
