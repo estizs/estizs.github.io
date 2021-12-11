@@ -53,6 +53,19 @@ Para visualizar los resultados con un mapa, hemos utilizado la librería Plotly 
 $ pip install plotly==5.4.0
 ```
 
+Para realizar el análisis hemos diferenciado los resultados por polaridades positivas y negativas. Con esto queremos comprobar si hay alguna relación entre la polaridad positiva y los resultados o si hay relación entre la polaridad negativa y los resultados. Es decir, si el apoyo a los candidatos en Twitter se ve reflejado en los resultados finales. 
+
+**Polaridad positiva**
+```python
+positive_polarity = candidates_df.filter(candidates_df.polarity >= 0).groupBy('name', 'state').count().withColumnRenamed('count', 'votes')
+polarity_results = positive_polarity.sort(positive_polarity.state.asc(), positive_polarity.votes.desc()).groupBy('state').agg(first('name').alias('name')).sort('state')
+```
+
+**Polaridad negativa**
+```python
+negative_polarity = candidates_df.filter(candidates_df.polarity < 0).groupBy('name', 'state').count().withColumnRenamed('count', 'votes')
+neg_polarity_results = negative_polarity.sort(negative_polarity.state.asc(), negative_polarity.votes.desc()).groupBy('state').agg(first('name').alias('name')).sort('state')
+```
 ### Resultados
 
 [Mapas, resultados]
