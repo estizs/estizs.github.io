@@ -6,7 +6,7 @@ Con este proyecto queremos estudiar el reflejo de la sociedad en las redes socia
 
 En los últimos diez años, el número de usuarios mensuales de Twitter ha aumentado en un 372%. A raíz de esto contamos con un dataset del orden de millones de tweets. Es usual que el tráfico de tweets aumente considerablemente durante sucesos importantes. Esto ocurre también durante el periodo electoral de EEUU. Esto constituye un conjunto de datos tan masivo que es necesario el uso de herramientas de procesamiento de datos más potentes como el Cloud.
 
-![texto prueba](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/datasets/usuarios%20twitter.png)
+![](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/datasets/usuarios%20twitter.png)
 
 ### Dataset tweets
 
@@ -91,6 +91,18 @@ negative_polarity = candidates_df.filter(candidates_df.polarity < 0).groupBy('na
 neg_polarity_results = negative_polarity.sort(negative_polarity.state.asc(), negative_polarity.votes.desc()).groupBy('state').agg(first('name').alias('name')).sort('state')
 ```
 
+Para un mejor análisis, hemos querido contrastar los resultados de Twitter con los resultados reales. Para ello, nos hemos servido de los datasets creados anteriormente en el estudio de las polaridades. Posteriormente, hemos creado mapas que enseñen estos resultados. El código que sigue hace referencia a cómo hemos hecho las operaciones de 'join' de los datasets citados para obtener este contraste.
+
+**Contraste de resultados positivos**
+```python
+cond_pos = [real.state_postal == pos.state, real.candidato == pos.name]
+pos_contrast = real.join(pos, cond_pos, "inner")
+```
+**Contraste de resultados negativos**
+``` python
+cond_neg = [real.state_postal == neg.state, real.candidato == neg.name]
+neg_contrast = real.join(neg, cond_neg, "inner")
+```
 ### Resultados
 
 Polaridad positiva 
@@ -98,6 +110,12 @@ Polaridad positiva
 
 Polaridad negativa
 ![](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/data/neg_polarity.png)
+
+Contraste resultados positivos
+![](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/data/positive_contrast.png)
+
+Constraste resultados negativos
+![](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/data/negative_contrast.png)
 
 ### Rendimiento: Local vs Cloud
 
