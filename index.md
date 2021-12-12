@@ -124,4 +124,10 @@ Constraste resultados negativos
 
 ### Conclusiones
 En la mayoría de estados, podemos apreciar en el mapa de constrate de resultados positivos que la mayoría de veces, cuando un candidato 
-es popular en la opinión pública -reflejada por Twitter en este caso- suele ganar.
+es popular en la opinión pública -reflejada por Twitter en este caso- suele ganar. Y viceversa, en el caso del contraste de resultados negativos, 
+cuando un candidato no es popular, no suele ganar las elecciones. 
+De esta manera, podemos establecer una relación proporcional entre las opiniones de los usuarios en la red y los resultados oficiales, siendo mayor
+esta relación respecto a los comentarios positivos generados en Twitter.
+
+En resumen, podemos verificar nuestra hipótesis: Existe una fuerte relación entre las opiniones recogidas en redes sociales y la opinión popular, viendo
+los resultados obtenidos en los contrastes.
