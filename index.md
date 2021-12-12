@@ -106,7 +106,7 @@ neg_contrast = real.join(neg, cond_neg, "inner")
 ### Resultados
 
 Polaridad positiva 
-![texto_prueba](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/data/pos_polarity.png)
+![](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/data/pos_polarity.png)
 
 Polaridad negativa
 ![](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/data/neg_polarity.png)
@@ -115,7 +115,7 @@ Contraste resultados positivos
 ![](imagenes/positive_contrast.png)
 
 Constraste resultados negativos
-<img src="imagenes/negative_contrast.png" class="img-responsive" alt=""> 
+![](imagenes/negative_contrast.png)
 
 
 ### Rendimiento: Local vs Cloud
