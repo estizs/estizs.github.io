@@ -106,10 +106,10 @@ neg_contrast = real.join(neg, cond_neg, "inner")
 ### Resultados
 
 Polaridad positiva 
-![](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/data/pos_polarity.png)
+![](imagenes/pos_polarity.png)
 
 Polaridad negativa
-![](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/data/neg_polarity.png)
+![](imagenes/neg_polarity.png)
 
 Contraste resultados positivos
 ![](imagenes/positive_contrast.png)
