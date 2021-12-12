@@ -112,10 +112,10 @@ Polaridad negativa
 ![](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/data/neg_polarity.png)
 
 Contraste resultados positivos
-![](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/data/positive_contrast.png)
+![](imagenes/positive_contrast.png)
 
 Constraste resultados negativos
-<img src="imagenes/negative_contrast.png" class="img-responsive" alt=""> </div>
+<img src="imagenes/negative_contrast.png" class="img-responsive" alt=""> 
 
 
 ### Rendimiento: Local vs Cloud
