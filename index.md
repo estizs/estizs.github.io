@@ -115,7 +115,7 @@ Contraste resultados positivos
 ![](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/data/positive_contrast.png)
 
 Constraste resultados negativos
-![](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/data/negative_contrast.png)
+![](https://drive.google.com/file/d/1a2nzLqSjItGnhw4SeVjJcpguIWZ0hXPl/view?usp=sharing)
 
 ### Rendimiento: Local vs Cloud
 
