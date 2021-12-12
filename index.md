@@ -123,5 +123,5 @@ Constraste resultados negativos
 [Análisis del rendimiento, dataset 13GB]
 
 ### Conclusiones
-
-[Aquí las conclusiones]
+En la mayoría de estados, podemos apreciar en el mapa de constrate de resultados positivos que la mayoría de veces, cuando un candidato 
+es popular en la opinión pública -reflejada por Twitter en este caso- suele ganar.
