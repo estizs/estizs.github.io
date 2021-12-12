@@ -119,8 +119,8 @@ Constraste resultados negativos
 
 
 ### Rendimiento: Local vs Cloud
-
-[Análisis del rendimiento, dataset 13GB]
+2 min 52 secs en Cloud.
+![](imagenes/especificaciones_cluster..JPG)
 
 ### Conclusiones
 En la mayoría de estados, podemos apreciar en el mapa de constrate de resultados positivos que la mayoría de veces, cuando un candidato 
