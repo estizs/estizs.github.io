@@ -7,8 +7,8 @@ Con este proyecto queremos estudiar el reflejo de la sociedad en las redes socia
 En los últimos diez años, el número de usuarios mensuales de Twitter ha aumentado en un 372%. A raíz de esto contamos con un dataset del orden de millones de tweets. Es usual que el tráfico de tweets aumente considerablemente durante sucesos importantes. Esto ocurre también durante el periodo electoral de EEUU. Esto constituye un conjunto de datos tan masivo que es necesario el uso de herramientas de procesamiento de datos más potentes como el Cloud.
 
 ![](https://github.com/oscarlparra/USA_Election_Tweet_Analysis/blob/master/datasets/usuarios%20twitter.png)
-### MODIFICAR ESTRUCTURA DATASETS
-### Dataset
+
+### Dataset tweets
 
 El dataset lo hemos obtenido de la página data.world, que contiene millones de datasets públicos para que cualquier persona pueda hacer uso de ellos. [Nuestro dataset](https://data.world/alexfilatov/2016-usa-presidential-election-tweets/workspace/project-summary?agentid=alexfilatov&datasetid=2016-usa-presidential-election-tweets) en concreto contiene tweets de las elecciones presidenciales de EEUU de 2016. Hay dos versiones del dataset, uno de 17.3MB y otro de 13.17GB. Para nuestras pruebas en local hemos usado el dataset de 17.3MB, que contiene 100k tweets.
 
@@ -32,13 +32,13 @@ Para el análisis, hemos prescindido de algunas columnas ya que no aportan infor
 
 **created_at:** fecha en la que se publicó el tweet.
 
-## Dataset datos reales
+### Dataset datos reales
 También hemos usado un dataset con los resultados de las elecciones obtenidos en la realidad, con los ganadores por estados. Esto lo hemos obtenido de la plataforma 'Dataverse' de la Universidad de Harvard, por lo que asumimos que los resultados son veraces. El tamaño de este dataset son 528,47 KB, en los que se encuentran los datos en forma tabular. Su estructura es la siguiente: year,"stage","special","state","state_postal","state_fips","state_icpsr","county_name","county_fips",
-"county_ansi","county_lat","county_long","jurisdiction","precinct","candidate","candidate_normalized",
-"office","district","writein","party","mode","votes","candidate_opensecrets","candidate_wikidata",
-"candidate_party","candidate_last","candidate_first","candidate_middle","candidate_full","candidate_suffix",
-"candidate_nickname","candidate_fec","candidate_fec_name","candidate_google",
-"candidate_govtrack","candidate_icpsr","candidate_maplight".
+"county_ansi","county_lat","county_long","jurisdiction","precinct","candidate",
+"candidate_normalized","office","district","writein","party","mode","votes","candidate_opensecrets",
+"candidate_wikidata","candidate_party","candidate_last","candidate_first","candidate_middle",
+"candidate_full","candidate_suffix","candidate_nickname","candidate_fec","candidate_fec_name",
+"candidate_google","candidate_govtrack","candidate_icpsr","candidate_maplight".
 
 De todos estos datos, sólo necesitábamos saber los datos relacionados con los votos totales por estados (formado por contados -'county_name' en la tabla-), el nombre del estado al que pertenecen y el nombre del candidato ganador. Por esto, hemos seguido la siguiente estructura para trabajar de una manera más eficiente: "state_postal", "county_name", "candidate_normalized" y "votes". 
 
