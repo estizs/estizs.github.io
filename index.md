@@ -125,7 +125,7 @@ Constraste resultados negativos
 
 Rendimeinto del trabajo en el Cloud
 
-*![CapturaTrabajo](https://user-images.githubusercontent.com/78794067/145861122-e49490f1-9dc9-40a9-b2f5-94d1b5778b79.JPG)
+![CapturaTrabajo](https://user-images.githubusercontent.com/78794067/145861122-e49490f1-9dc9-40a9-b2f5-94d1b5778b79.JPG)
 
 ![](imagenes/rendimiento.JPG)
 
