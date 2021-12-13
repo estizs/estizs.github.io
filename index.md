@@ -127,7 +127,9 @@ Rendimeinto del trabajo en el Cloud
 ![](imagenes/rendimiento.JPG)
 
 Rendimiento del trabajo en local
+
 ![](imagenes/Captura de pantalla (276).png)
+
 ![](imagenes/Captura de pantalla (275).png)
 
 ### Conclusiones
