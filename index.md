@@ -127,11 +127,9 @@ Rendimeinto del trabajo en el Cloud
 ![](imagenes/rendimiento.JPG)
 
 ### Conclusiones
-En la mayoría de estados, podemos apreciar en el mapa de contraste de resultados positivos que la mayoría de veces, cuando un candidato 
-es popular en la opinión pública -reflejada por Twitter en este caso- suele ganar. Y viceversa, en el caso del contraste de resultados negativos, 
-cuando un candidato no es popular, no suele ganar las elecciones. 
-De esta manera, podemos establecer una relación proporcional entre las opiniones de los usuarios en la red y los resultados oficiales, siendo mayor
-esta relación respecto a los comentarios positivos generados en Twitter.
+En la mayoría de estados, podemos apreciar en el mapa de contraste positivo entre el análisis de polaridad positiva que muestra el candidato más popular del estado -reflejado en nuestro análisis de Twitter en este caso- y el resultado real de las elecciones en 2016 se ve reflejado una mayor correlación que en el mapa de contraste negativo, que contrasta al candidato más impopular con el que menos votos ha recibido en las elecciones.
 
-En resumen, podemos verificar nuestra hipótesis: Existe una fuerte relación entre las opiniones recogidas en redes sociales y la opinión popular, viendo
-los resultados obtenidos en los contrastes.
+De esta manera, podemos establecer una relación directamente proporcional entre las opiniones de los usuarios en la red y los resultados oficiales, siendo mayor
+esta relación respecto a los comentarios positivos que a los negativos generados en Twitter.
+
+En resumen, podemos verificar nuestra hipótesis: Existe una mayor relación entre los resultados oficiales de estas elecciones y la opinión popular positiva que entre la negativa; es decir, los comentarios positivos en twitter en nuestro caso reflejan una realidad más precisa del ganador de las elecciones y el candidato más popular que la del candidato más impupular y el que menos votos ha recibido lo que nos lleva a poder plantear una posible hipótesis y caso estudio de las cuentas manejadas por bots en esta red social, caso en el que no hemos decidido meternos en este análisis.
