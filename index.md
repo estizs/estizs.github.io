@@ -19,7 +19,8 @@ Para el análisis, hemos prescindido de algunas columnas ya que no aportan infor
 **candidate_id:** contiene un número del 1 al 4. Las correspondencias de id-nombre son las siguientes:
 
 * ID 1: Hillary Clinton
-* ID 2: Donald Trump
+* ID 2: Donald Trump![CapturaTrabajo](https://user-images.githubusercontent.com/78794067/145861122-e49490f1-9dc9-40a9-b2f5-94d1b5778b79.JPG)
+
 * ID 3: Barack Obama
 * ID 4: Bernie Sanders
 
@@ -123,14 +124,16 @@ Constraste resultados negativos
 
 ![](imagenes/especificaciones_cluster..JPG)
 
-Rendimeinto del trabajo en el Cloud
+** Rendimeinto del trabajo en el Cloud
 ![](imagenes/rendimiento.JPG)
 
-Rendimiento del trabajo en local
+** Rendimiento del trabajo en local
 
 ![](imagenes/Captura de pantalla (276).png)
 
 ![](imagenes/Captura de pantalla (275).png)
+
+Como podemos observar el rendimiento en local pese a que en tiempo tarda alrededor de 
 
 ### Conclusiones
 En la mayoría de estados, podemos apreciar el contraste en el mapa de contraste positivo entre el análisis de polaridad positiva, que muestra el candidato más popular del estado -reflejado en nuestro análisis de Twitter en este caso- y el resultado real de las elecciones en 2016; en el cual se ve reflejado una mayor correlación que en el mapa de contraste negativo, que contrasta al candidato más impopular con el que menos votos ha recibido en las elecciones.
