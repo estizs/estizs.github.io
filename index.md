@@ -125,6 +125,8 @@ Constraste resultados negativos
 ![](imagenes/especificaciones_cluster..JPG)
 
 ** Rendimeinto del trabajo en el Cloud
+![](imagenes/Capturatrabajo.JPG)
+
 ![](imagenes/rendimiento.JPG)
 
 ** Rendimiento del trabajo en local
@@ -133,7 +135,7 @@ Constraste resultados negativos
 
 ![](imagenes/Captura de pantalla (275).png)
 
-Como podemos observar el rendimiento en local pese a que en tiempo tarda alrededor de 
+Como podemos observar el rendimiento en local y el rendimiento en nuestro cluster en el cloud es bastante equiparable. No hemos llegado a unas conclusiones exactas pero suponemos que el en el clúster al añadir o quitar nodos trabajadores podríamos obtener un mejor rendimiento en el futuro.
 
 ### Conclusiones
 En la mayoría de estados, podemos apreciar el contraste en el mapa de contraste positivo entre el análisis de polaridad positiva, que muestra el candidato más popular del estado -reflejado en nuestro análisis de Twitter en este caso- y el resultado real de las elecciones en 2016; en el cual se ve reflejado una mayor correlación que en el mapa de contraste negativo, que contrasta al candidato más impopular con el que menos votos ha recibido en las elecciones.
