@@ -127,7 +127,7 @@ Rendimeinto del trabajo en el Cloud
 ![](imagenes/rendimiento.JPG)
 
 ### Conclusiones
-En la mayoría de estados, podemos apreciar en el mapa de contraste positivo entre el análisis de polaridad positiva que muestra el candidato más popular del estado -reflejado en nuestro análisis de Twitter en este caso- y el resultado real de las elecciones en 2016 se ve reflejado una mayor correlación que en el mapa de contraste negativo, que contrasta al candidato más impopular con el que menos votos ha recibido en las elecciones.
+En la mayoría de estados, podemos apreciar el contraste en el mapa de contraste positivo entre el análisis de polaridad positiva, que muestra el candidato más popular del estado -reflejado en nuestro análisis de Twitter en este caso- y el resultado real de las elecciones en 2016; en el cual se ve reflejado una mayor correlación que en el mapa de contraste negativo, que contrasta al candidato más impopular con el que menos votos ha recibido en las elecciones.
 
 De esta manera, podemos establecer una relación directamente proporcional entre las opiniones de los usuarios en la red y los resultados oficiales, siendo mayor
 esta relación respecto a los comentarios positivos que a los negativos generados en Twitter.
