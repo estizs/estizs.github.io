@@ -33,7 +33,7 @@ Para el análisis, hemos prescindido de algunas columnas ya que no aportan infor
 **created_at:** fecha en la que se publicó el tweet.
 
 ### Dataset datos reales
-También hemos usado un [dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LYWX3D) con los resultados de las elecciones obtenidos en la realidad, con los ganadores por estados. Esto lo hemos obtenido de la plataforma 'Dataverse' de la Universidad de Harvard, por lo que asumimos que los resultados son veraces. El tamaño de este dataset son 528,47 KB, en los que se encuentran los datos en forma tabular. Su estructura es la siguiente: year,"stage","special","state","state_postal","state_fips","state_icpsr","county_name","county_fips",
+También hemos usado un [dataset](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LYWX3D) con los resultados de las elecciones obtenidos en la realidad, con los ganadores por estados. Esto lo hemos obtenido de la plataforma 'Dataverse' de la Universidad de Harvard, por lo que asumimos que los resultados son veraces. El tamaño de este dataset son 528,47 MB, en los que se encuentran los datos en forma tabular. Su estructura es la siguiente: year,"stage","special","state","state_postal","state_fips","state_icpsr","county_name","county_fips",
 "county_ansi","county_lat","county_long","jurisdiction","precinct","candidate",
 "candidate_normalized","office","district","writein","party","mode","votes","candidate_opensecrets",
 "candidate_wikidata","candidate_party","candidate_last","candidate_first","candidate_middle",
