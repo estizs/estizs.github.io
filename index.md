@@ -19,8 +19,7 @@ Para el análisis, hemos prescindido de algunas columnas ya que no aportan infor
 **candidate_id:** contiene un número del 1 al 4. Las correspondencias de id-nombre son las siguientes:
 
 * ID 1: Hillary Clinton
-* ID 2: Donald Trump![CapturaTrabajo](https://user-images.githubusercontent.com/78794067/145861122-e49490f1-9dc9-40a9-b2f5-94d1b5778b79.JPG)
-
+* ID 2: Donald Trump
 * ID 3: Barack Obama
 * ID 4: Bernie Sanders
 
@@ -124,12 +123,13 @@ Constraste resultados negativos
 
 ![](imagenes/especificaciones_cluster..JPG)
 
-** Rendimeinto del trabajo en el Cloud
-![](imagenes/Capturatrabajo.JPG)
+Rendimeinto del trabajo en el Cloud
+
+*![CapturaTrabajo](https://user-images.githubusercontent.com/78794067/145861122-e49490f1-9dc9-40a9-b2f5-94d1b5778b79.JPG)
 
 ![](imagenes/rendimiento.JPG)
 
-** Rendimiento del trabajo en local
+Rendimiento del trabajo en local
 
 ![](imagenes/Captura de pantalla (276).png)
 
