@@ -126,6 +126,10 @@ Constraste resultados negativos
 Rendimeinto del trabajo en el Cloud
 ![](imagenes/rendimiento.JPG)
 
+Rendimiento del trabajo en local
+![](imagenes/Captura de pantalla (276).png)
+![](imagenes/Captura de pantalla (275).png)
+
 ### Conclusiones
 En la mayoría de estados, podemos apreciar el contraste en el mapa de contraste positivo entre el análisis de polaridad positiva, que muestra el candidato más popular del estado -reflejado en nuestro análisis de Twitter en este caso- y el resultado real de las elecciones en 2016; en el cual se ve reflejado una mayor correlación que en el mapa de contraste negativo, que contrasta al candidato más impopular con el que menos votos ha recibido en las elecciones.
 
