@@ -40,7 +40,7 @@ También hemos usado un [dataset](https://dataverse.harvard.edu/dataset.xhtml?pe
 "candidate_full","candidate_suffix","candidate_nickname","candidate_fec","candidate_fec_name",
 "candidate_google","candidate_govtrack","candidate_icpsr","candidate_maplight".
 
-De todos estos datos, sólo necesitábamos saber los datos relacionados con los votos totales por estados (formado por contados -'county_name' en la tabla-), el nombre del estado al que pertenecen y el nombre del candidato ganador. Por esto, hemos seguido la siguiente estructura para trabajar de una manera más eficiente: "state_postal", "county_name", "candidate_normalized" y "votes". 
+De todos estos datos, sólo necesitábamos saber los datos relacionados con los votos totales por estados (formado por contados -'county_name' en la tabla-), el nombre del estado al que pertenecen y el nombre del candidato ganador. Por esto, hemos seguido la siguiente estructura para trabajar de una manera más eficiente: "state_postal", "county_name", "candidate" y "votes". 
 
 **state_postal:** abreviatura del estado al que pertenece el condado.
 
