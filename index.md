@@ -131,15 +131,15 @@ con el siguiente BUCKET:
 Hemos decidido variar en el numero de nodos trabajadores para analizar los tiempos de ejecución ver que configuración es la mas adecuada para el análisis del dataset de 14GB:
 
 
-  **3 nodos trabajadores y 0 secundarios->  2.6
+  **3 nodos trabajadores y 0 secundarios->  2.6 min
 
-  **5 nodos trabajadores y 0 secundarios->  2.1
+  **5 nodos trabajadores y 0 secundarios->  2.1 min
 
-  **5 nodos trabajadores y 1 secundario-> 1.7
+  **5 nodos trabajadores y 1 secundario-> 1.7 min
 
 ![](imagenes/Captura de pantalla (280).png)
 
-Rendimiento del trabajo en local
+Rendimiento del trabajo en local:
 
 ![](imagenes/Captura de pantalla (276).png)
 
