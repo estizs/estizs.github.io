@@ -119,15 +119,16 @@ Constraste resultados negativos
 
 
 ### Rendimiento: Local vs Cloud
-2 min 52 secs en Cloud.
 
-![](imagenes/especificaciones_cluster..JPG)
+Hemos decidido usar un cloud optimizado para procesamiento de datos con las siguientes especificaciones:
+
+
 
 Rendimeinto del trabajo en el Cloud
 
-![CapturaTrabajo](https://user-images.githubusercontent.com/78794067/145861122-e49490f1-9dc9-40a9-b2f5-94d1b5778b79.JPG)
 
-![](imagenes/rendimiento.JPG)
+
+
 
 Rendimiento del trabajo en local
 
