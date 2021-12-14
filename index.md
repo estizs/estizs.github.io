@@ -137,7 +137,7 @@ Hemos decidido variar en el numero de nodos trabajadores para analizar los tiemp
 
   **5 nodos trabajadores y 1 secundario-> 1.7 min
 
-![](imagenes/Captura de pantalla (280).png)
+https://github.com/estizs/estizs.github.io/blob/1aaa7292f32ba558bc309bef08f46e1c5571d34b/imagenes/Captura%20de%20pantalla%20(280).png
 
 Rendimiento del trabajo en local:
 
