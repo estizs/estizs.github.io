@@ -137,13 +137,13 @@ Hemos decidido variar en el numero de nodos trabajadores para analizar los tiemp
 
   **5 nodos trabajadores y 1 secundario-> 1.7 min
 
-![](imagenes/Captura de pantalla (280).png)
+![](imagenes/TrabajosCloud.JPG)
 
 Rendimiento del trabajo en local:
 
-![](imagenes/Captura de pantalla (276).png)
+![](imagenes/TrabajoLocal1.JPG)
 
-![](imagenes/Captura de pantalla (275).png)
+![](imagenes/TrabajoLocal2.JPG)
 
 Como podemos observar el rendimiento en local y el rendimiento en nuestro cluster en el cloud es bastante equiparable. No hemos llegado a unas conclusiones exactas pero suponemos que el en el clúster al añadir o quitar nodos trabajadores podríamos obtener un mejor rendimiento en el futuro.
 
