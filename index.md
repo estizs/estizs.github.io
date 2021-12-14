@@ -124,10 +124,13 @@ Hemos decidido usar un cloud optimizado para procesamiento de datos con las sigu
 
 
 
-Rendimeinto del trabajo en el Cloud
+Hemos decidido variar en el numero de nodos trabajadores para analizar los tiempos de ejecución ver que configuración es la mas adecuada para el análisis del dataset de 14GB
 
+Anásisis de 3 nodos trabajadores y 0 secundarios:
 
+Análisis de 5 nodos trabajadores y 0 secundarios:
 
+Análisis de 5 nodos trabajadores y 1 secundario:
 
 
 Rendimiento del trabajo en local
