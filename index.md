@@ -139,7 +139,7 @@ Hemos decidido variar en el numero de nodos trabajadores para analizar los tiemp
 
 ![](imagenes/TrabajosCloud.JPG)
 
-Rendimiento del trabajo en local:
+ **Rendimiento del trabajo en local- >2,9 min:
 
 ![](imagenes/TrabajoLocal1.JPG)
 
