@@ -122,16 +122,22 @@ Constraste resultados negativos
 
 Hemos decidido usar un cloud optimizado para procesamiento de datos con las siguientes especificaciones:
 
+![](imagenes/CapturaNuevoCluster.JPG)
+
+con el siguiente BUCKET:
+
+![](imagenes/Bucket.JPG)
+
+Hemos decidido variar en el numero de nodos trabajadores para analizar los tiempos de ejecución ver que configuración es la mas adecuada para el análisis del dataset de 14GB:
 
 
-Hemos decidido variar en el numero de nodos trabajadores para analizar los tiempos de ejecución ver que configuración es la mas adecuada para el análisis del dataset de 14GB
+  **3 nodos trabajadores y 0 secundarios->  2.6
 
-Anásisis de 3 nodos trabajadores y 0 secundarios:
+  **5 nodos trabajadores y 0 secundarios->  2.1
 
-Análisis de 5 nodos trabajadores y 0 secundarios:
+  **5 nodos trabajadores y 1 secundario-> 1.7
 
-Análisis de 5 nodos trabajadores y 1 secundario:
-
+![](imagenes/Captura de pantalla (280).png)
 
 Rendimiento del trabajo en local
 
