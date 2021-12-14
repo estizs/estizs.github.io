@@ -137,6 +137,14 @@ Rendimiento del trabajo en local
 
 Como podemos observar el rendimiento en local y el rendimiento en nuestro cluster en el cloud es bastante equiparable. No hemos llegado a unas conclusiones exactas pero suponemos que el en el clúster al añadir o quitar nodos trabajadores podríamos obtener un mejor rendimiento en el futuro.
 
+### Advanced Features
+
+En nuestro caso, el dataset que contiene los tweets contiene la polaridad y la subjetividad de cada uno de ellos. Este análisis de polaridad y subjetividad, ambos necesarios para poder llevar a cabo nuestro proyecto ya estaban hechos de antemano por el autor del dataset. Sin embargo nos gustaría dar unas pinceladas de como se llevó acabo este análisis y por qué esta tan interesante. La herramienta usada es Python NLTK (Natual language toolkit) la cual es una de las librerías más usadas de python para NLP (natural language processing).
+
+El NLP es una disciplina de la Computación que concierne al tratamiento de información desestructurada, presentada en texto o audio y expresada mediante Lenguaje Natural. Se entiende por lenguaje natural cualquier lenguaje utilizado para la comunicación humana en el día a día, en contraposición a unlenguaje artificial establecido, como por ejemplo los lenguajes de programación. Esta disciplina cada día está más de moda y se utiliza tanto para analizar los feedbacks de los sitios web, las redes sociales como en nuestro estudio, motores de búsqueda, asistentes de voz...
+
+Su funcionamiento es bastante parecido al del framework MapReduce y se basa en tokenizar los textos y aplicar acciones como un wordcount, una busqueda u otras ya mucho más avanzadas.
+
 ### Conclusiones
 En la mayoría de estados, podemos apreciar el contraste en el mapa de contraste positivo entre el análisis de polaridad positiva, que muestra el candidato más popular del estado -reflejado en nuestro análisis de Twitter en este caso- y el resultado real de las elecciones en 2016; en el cual se ve reflejado una mayor correlación que en el mapa de contraste negativo, que contrasta al candidato más impopular con el que menos votos ha recibido en las elecciones.
 
